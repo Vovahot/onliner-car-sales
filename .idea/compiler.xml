@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="onliner-car-sales" target="1.5" />
+      <module name="onliner-car-sales" target="1.8" />
       <module name="src" target="1.5" />
     </bytecodeTargetLevel>
   </component>

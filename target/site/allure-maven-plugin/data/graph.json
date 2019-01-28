@@ -1,0 +1,11 @@
+[ {
+  "uid" : "f3797ece02972af9",
+  "name" : "testOnlinerHomePage",
+  "time" : {
+    "start" : 1548674507453,
+    "stop" : 1548674508784,
+    "duration" : 1331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

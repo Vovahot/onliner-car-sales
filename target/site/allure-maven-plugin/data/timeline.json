@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ukhatsko2097nt",
+    "children" : [ {
+      "name" : "16272@ukhatsko2097nt.main(1)",
+      "children" : [ {
+        "name" : "testOnlinerHomePage",
+        "uid" : "f3797ece02972af9",
+        "parentUid" : "13fe7ae7e6ff9bce0be67ecb47c46601",
+        "status" : "passed",
+        "time" : {
+          "start" : 1548674507453,
+          "stop" : 1548674508784,
+          "duration" : 1331
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13fe7ae7e6ff9bce0be67ecb47c46601"
+    } ],
+    "uid" : "d850ac0561862c5a61b4fc45b65124da"
+  } ]
+}
