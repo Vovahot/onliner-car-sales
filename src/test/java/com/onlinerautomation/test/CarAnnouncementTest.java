@@ -17,11 +17,15 @@ public class CarAnnouncementTest extends TestBase {
         autoMarketPage = new HomePage(driver).openAnnouncementCarPage();
     }
 
-    @Test
-    public void testOpenCarAnnouncement() {
+    @Test(description = "Compare preview data with opened announcement data")
+    public void testComparePreviewAndOpenedAnnouncementData() {
         autoMarketPage.openFirstAnnouncement().verifyCarInformation();
     }
 
+    @Test(description = "Verify car announcement elements")
+    public void testVerifyPageElements(){
+        autoMarketPage.openFirstAnnouncement().verifyCarAnnouncementElements();
+    }
 
     @Override
     public void openTargetPage() {
