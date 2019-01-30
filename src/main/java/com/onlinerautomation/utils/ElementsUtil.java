@@ -4,20 +4,15 @@ import io.vavr.control.Option;
 import io.vavr.control.Try;
 import org.hamcrest.FeatureMatcher;
 import org.openqa.selenium.*;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.internal.Locatable;
 import org.openqa.selenium.support.ui.Select;
 import ru.yandex.qatools.htmlelements.element.Named;
 
-import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.Callable;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 import static com.google.common.util.concurrent.Uninterruptibles.sleepUninterruptibly;
@@ -243,24 +238,6 @@ public class ElementsUtil {
                 .until(() -> !isClassPresent(className, element));
     }
 
-//    public static boolean isVisibleInViewport(WebComponent webComponent) {
-//        return isVisibleInViewport(webComponent, webComponent.getDriver());
-//    }
-
-    public static boolean isVisibleInViewport(WebElement element, WebDriver driver) {
-        return (Boolean) ((JavascriptExecutor) driver).executeScript(
-                "var elem = arguments[0],                 " +
-                        "  box = elem.getBoundingClientRect(),    " +
-                        "  cx = box.left + box.width / 2,         " +
-                        "  cy = box.top + box.height / 2,         " +
-                        "  e = document.elementFromPoint(cx, cy); " +
-                        "for (; e; e = e.parentElement) {         " +
-                        "  if (e === elem)                        " +
-                        "    return true;                         " +
-                        "}                                        " +
-                        "return false;                            "
-                , element);
-    }
 
     /**
      * 3 seconds Waiter for animation to stop
@@ -291,30 +268,6 @@ public class ElementsUtil {
                 .untilGot(() -> driver.findElement(by));
     }
 
-//    public static <T extends HtmlElement> void waitForAll(int seconds, List<T> elements) {
-//        waitForAll(seconds, elements.toArray(new HtmlElement[0]));
-//    }
-
-//    public static void waitForAll(int seconds, WebElement... elements) {
-//        Try.of(() -> {
-//            waitFor(seconds).until(() -> isAllDisplayed(elements));
-//            return true;
-//        }).andFinally(() -> {
-//                    SoftAssert softAssert = new SoftAssert();
-//                    Arrays.asList(elements)
-//                            .stream()
-//                            .forEach(it -> {
-//                                log.info("Check if [" + (it instanceof Named ? ((Named) it) : it) + "] is displayed");
-//                                softAssert.assertTrue(isDisplayed(it), it + " is not displayed");
-//                            });
-//                    softAssert.assertAll();
-//                }
-//        );
-//    }
-
-    // endregion Waiters
-
-    // region Actions
     public static Option<WebElement> getIfDisplayed(WebElement parentElem, By by) {
         try {
             WebElement elem = parentElem.findElement(by);
@@ -338,42 +291,6 @@ public class ElementsUtil {
             //  log.debug("Element '" + by + "' is NOT displayed");
         }
         return Option.none();
-    }
-
-    public static Color parseColor(String input) {
-        Pattern c = Pattern.compile("rgba*\\( *([0-9]+), *([0-9]+), *([0-9]+),.*\\)");
-        Matcher m = c.matcher(input);
-        if (m.matches()) {
-            return new Color(Integer.valueOf(m.group(1)),  // r
-                    Integer.valueOf(m.group(2)),  // g
-                    Integer.valueOf(m.group(3))); // b
-        }
-        return null;
-    }
-
-    public static void assertNot(String errorMessage, Callable callable) {
-        try {
-            Object value = callable.call().toString();
-            throw new Exception(errorMessage + ": Got value [" + value + "]");
-        } catch (AssertionError | TimeoutException | NoSuchElementException | InvalidElementStateException e) {
-            //    log.info("Conditions were not met: " + e.getMessage());
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void dragAndDropElements(WebDriver driver, WebElement from, WebElement to) {
-        new Actions(driver).clickAndHold(from)
-                .moveToElement(to)
-                .release(to)
-                .build().perform();
-    }
-
-    public static void dragAndDropElement(WebDriver driver, WebElement element, int offsetX, int offsetY) {
-        new Actions(driver).clickAndHold(element)
-                .moveByOffset(offsetX, offsetY)
-                .release(element)
-                .build().perform();
     }
 
     public static void dragAndDropElementMobile(WebDriver driver, WebElement element, int offsetX, int offsetY) {
@@ -407,21 +324,6 @@ public class ElementsUtil {
         }).getOrElse(false);
     }
 
-//    public static String selectAnyValue(WebElement selectElement) {
-//        waitForVisible(selectElement);
-//
-//        Select select = new Select(selectElement);
-//        waitFor(20)
-//                .withError("No options to select")
-//                .until(() -> select.getOptions().size() > 0);
-//
-//        List<WebElement> options = select.getOptions();
-//        log.debug("Options to select:\n" + options.stream().map(WebElement::getText).collect(toList()));
-//        String valueToSelect = options.get(new Random().nextInt(options.size())).getText();
-//        select.selectByVisibleText(valueToSelect);
-//        return valueToSelect;
-//    }
-
     public static String selectByIndex(WebElement selectElement, int index) {
         waitForVisible(selectElement);
 
@@ -434,45 +336,6 @@ public class ElementsUtil {
         select.selectByIndex(index);
         return valueToSelect;
     }
-
-    public static void mouseOverElement(WebDriver driver, WebElement element) {
-        //Mouseover the top left corner
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element);
-        actions.perform();
-    }
-
-    public static void mouseOverElementCenter(WebDriver driver, WebElement element) {
-        //Mouseover from the center of the element
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element, 0, 0);
-        actions.perform();
-    }
-
-    public static void scrollIntoView(WebDriver driver, WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("return arguments[0].scrollIntoView();", element);
-    }
-
-    public static String getTextUsingJquery(WebDriver driver, String cssSelector) {
-        return ((JavascriptExecutor) driver).executeScript("return $(\"" + cssSelector + "\").text()").toString();
-    }
-
-    public static void waitForAjaxCompleted(WebDriver driver, int seconds) {
-        waitFor(seconds).until(() -> (Boolean) ((JavascriptExecutor) driver).executeScript("return jQuery.active == 0"));
-    }
-
-    public static String serialize(WebDriver driver, WebElement element) {
-        return ((JavascriptExecutor) driver).executeScript("return arguments[0].outerHTML;", element).toString();
-    }
-
-    /**
-     * The blur event occurs when an element loses focus. The blur() method triggers the blur event, or attaches a function to run when a blur event occurs.
-     */
-    public static void blur(WebDriver driver, WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("return arguments[0].blur();", element);
-    }
-
-    // endregion Actions
 
     public static FeatureMatcher<WebElement, String> text(org.hamcrest.Matcher<String> matcher) {
         return new FeatureMatcher<WebElement, String>(matcher, "text", "text") {

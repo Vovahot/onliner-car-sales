@@ -1,0 +1,119 @@
+{
+  "uid" : "4463e52f1d735ce7",
+  "name" : "testOnlinerHomePage",
+  "fullName" : "com.onlinerautomation.test.OnlinerHomePageTest.testOnlinerHomePage",
+  "historyId" : "47c68273e0f55f31c4108eebd607cd49",
+  "time" : {
+    "start" : 1548672632248,
+    "stop" : 1548672632392,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "prepareForTestMethod",
+    "time" : {
+      "start" : 1548672625162,
+      "stop" : 1548672632038,
+      "duration" : 6876
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initTestClass",
+    "time" : {
+      "start" : 1548672625138,
+      "stop" : 1548672625138,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initTestSuite",
+    "time" : {
+      "start" : 1548672623095,
+      "stop" : 1548672625118,
+      "duration" : 2023
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1548672632420,
+      "stop" : 1548672633632,
+      "duration" : 1212
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.onlinerautomation.test.OnlinerHomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.onlinerautomation.test.OnlinerHomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOnlinerHomePage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "onliner-car-sales"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.onlinerautomation.test.OnlinerHomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "ukhatsko2097nt"
+  }, {
+    "name" : "thread",
+    "value" : "1500@ukhatsko2097nt.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "4463e52f1d735ce7.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

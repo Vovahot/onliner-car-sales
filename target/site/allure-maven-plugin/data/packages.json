@@ -5,7 +5,7 @@
     "name" : "com.onlinerautomation.test.OnlinerHomePageTest",
     "children" : [ {
       "name" : "testOnlinerHomePage",
-      "uid" : "f3797ece02972af9",
+      "uid" : "6d11d0c2c320d1ea",
       "parentUid" : "7ac1278763903387476dd05f83f360ec",
       "status" : "passed",
       "time" : {
