@@ -2,26 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2938720-0178-49a1-9274-1f1d9e6dc8e8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_awaitility_awaitility_3_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_java_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/Await.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/SuiteConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/listeners/AllureListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chrome.capabilities" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/onliner-car-sales.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onliner-car-sales.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/18b3035e06987aa7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/1934a5b7d8d49005.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/1af17be73ff2c224.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/22a48ed60c6fd175.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/23908c5a211bbdec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/2999a8de6b49a9c7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/2ca48c8cd89a939d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/35e97919a39e19c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/40d2b8855be25100.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/48e3664e43cd8346.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/49ded899d0c28e39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/52c4933beb2655a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/59642cbd7dcd410f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/5fcc3f498d74bcb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/902b080de1fd2b03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/92929478bae5b7d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/9705db58e01b6af7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/98ed9210111a5118.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/a2dc2e8c0ca02cc2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/a47fd5f5c6681ef4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/a5e96225ef289f8a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/b8afc3edaa4c02b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/bf5e7ca58c003586.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/c021380dc2045af5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/cd604927fa0b7192.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/d4b83f680c9aaa41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/ded54d80fb4a7698.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e0d540f5bfb7a280.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e2edda4f1791537a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e3c0a63d72af0a45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e3edaedeb89040ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e438405c3ac7258.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f14c4cbf107627a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f3797ece02972af9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/fab6c3d56f871af9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/fcbf7f9786ca1ddc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/src/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,25 +71,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/TestBase.java">
+      <file leaf-file-name="AutoMarketPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="276">
+              <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#3111#3112#0" expanded="true" />
+                <element signature="e#3148#3149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Await.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/Await.java">
+      <file leaf-file-name="DataForFilers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="577" column="32" lean-forward="true" selection-start-line="577" selection-start-column="32" selection-end-line="577" selection-end-column="32" />
+            <state relative-caret-position="265">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JoinPointImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarMarketTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarAnnouncementTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,13 +157,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/Page.java">
+      <file leaf-file-name="CarAnnouncementPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="306">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,42 +174,8 @@
       <file leaf-file-name="ElementsUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6206#6207#0" expanded="true" />
-                <element signature="e#6268#6269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllureListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/listeners/AllureListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/WebDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="357">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,51 +183,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuiteConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/SuiteConfiguration.java">
+      <file leaf-file-name="LeftMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="361">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="StepsAspects.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.8.1/allure-java-commons-2.8.1.jar!/io/qameta/allure/aspects/StepsAspects.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnlinerHomePageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -219,8 +259,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/listeners/AllureListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/listeners/AllureListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/onlinerautomation/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java" />
       </list>
     </option>
   </component>
@@ -260,10 +306,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-37" />
-    <option name="y" value="-23" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1046" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,6 +324,11 @@
             <path>
               <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
               <item name="onliner-car-sales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onliner-car-sales" type="462c0819:PsiDirectoryNode" />
+              <item name=".allure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
@@ -313,6 +364,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="onlinerautomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onliner-car-sales" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinerautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
@@ -370,6 +431,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinerautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onliner-car-sales" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,13 +451,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
               <item name="listeners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onliner-car-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -427,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CarAnnouncementTest.testOpenCarAnnouncement">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -447,7 +511,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="OnlinerHomePageTest.testOnlinerHomePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="onliner-car-sales" />
       <extension name="coverage">
         <pattern>
@@ -459,8 +523,124 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.onlinerautomation.test" />
-      <option name="MAIN_CLASS_NAME" value="com.onlinerautomation.test.OnlinerHomePageTest" />
-      <option name="METHOD_NAME" value="testOnlinerHomePage" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinerautomation.test.CarAnnouncementTest" />
+      <option name="METHOD_NAME" value="testOpenCarAnnouncement" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CarMarketTest.testCarmarket" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onliner-car-sales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinerautomation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.onlinerautomation.test" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinerautomation.test.CarMarketTest" />
+      <option name="METHOD_NAME" value="testCarmarket" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CarMarketTest.testFilterByCarBodyTypes" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onliner-car-sales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinerautomation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.onlinerautomation.test" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinerautomation.test.CarMarketTest" />
+      <option name="METHOD_NAME" value="testFilterByCarBodyTypes" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CarMarketTest.testFilterByCarEngineType" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onliner-car-sales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinerautomation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.onlinerautomation.test" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinerautomation.test.CarMarketTest" />
+      <option name="METHOD_NAME" value="testFilterByCarEngineType" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CarMarketTest.testFilterByCarTransmissionType" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onliner-car-sales" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinerautomation.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.onlinerautomation.test" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinerautomation.test.CarMarketTest" />
+      <option name="METHOD_NAME" value="testFilterByCarTransmissionType" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -498,9 +678,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="TestNG.CarMarketTest.testCarmarket" />
+      <item itemvalue="TestNG.CarMarketTest.testFilterByCarBodyTypes" />
+      <item itemvalue="TestNG.CarMarketTest.testFilterByCarEngineType" />
+      <item itemvalue="TestNG.CarMarketTest.testFilterByCarTransmissionType" />
+      <item itemvalue="TestNG.CarAnnouncementTest.testOpenCarAnnouncement" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OnlinerHomePageTest.testOnlinerHomePage" />
+        <item itemvalue="TestNG.CarAnnouncementTest.testOpenCarAnnouncement" />
+        <item itemvalue="TestNG.CarMarketTest.testFilterByCarTransmissionType" />
+        <item itemvalue="TestNG.CarMarketTest.testFilterByCarEngineType" />
+        <item itemvalue="TestNG.CarMarketTest.testFilterByCarBodyTypes" />
+        <item itemvalue="TestNG.CarMarketTest.testCarmarket" />
       </list>
     </recent_temporary>
   </component>
@@ -518,35 +709,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 40m 36s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 00m 13s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 41m 57s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 03m 07s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 42m 10s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 04m 26s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 42m 24s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 07m 49s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 45m 11s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 09m 57s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 48m 02s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 13m 16s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 48m 53s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 16m 10s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 50m 34s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 17m 14s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 13h 57m 05s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 18m 57s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.28 at 14h 21m 50s.xml">
-      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 21m 13s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -554,15 +745,15 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.4226804" />
+      <window_info anchor="bottom" id="Messages" weight="0.42234638" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.20670392" />
       <window_info anchor="right" id="Maven Projects" visible="true" weight="0.23240939" />
       <window_info anchor="bottom" id="Version Control" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28826815" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49946696" weight="0.20176731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3642458" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49946696" visible="true" weight="0.30614525" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
@@ -582,6 +773,64 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>announcementList.get(0).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>announcementList.get(0).getText();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>element.findElement(By.cssSelector(&quot;span [href*='/car/']&quot;)).getText();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>announcementList.get(2).findElement(By.cssSelector(&quot;span [href*='/car/']&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>announcementList.get(1).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[id*='car']</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>leftMenu.getCarBodyType().click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
@@ -719,16 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/Await.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="577" column="32" lean-forward="true" selection-start-line="577" selection-start-column="32" selection-end-line="577" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -763,22 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6206#6207#0" expanded="true" />
-            <element signature="e#6268#6269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
@@ -787,13 +1014,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/Await.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="5860">
+          <caret line="577" column="32" lean-forward="true" selection-start-line="577" selection-start-column="32" selection-end-line="577" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="450" selection-start-line="450" selection-end-line="450" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.8.1/allure-java-commons-2.8.1.jar!/io/qameta/allure/aspects/StepsAspects.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#3148#3149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
