@@ -2,58 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2938720-0178-49a1-9274-1f1d9e6dc8e8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/18b3035e06987aa7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/1934a5b7d8d49005.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/1af17be73ff2c224.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/22a48ed60c6fd175.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/23908c5a211bbdec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/2999a8de6b49a9c7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/2ca48c8cd89a939d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/35e97919a39e19c9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/40d2b8855be25100.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/48e3664e43cd8346.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/49ded899d0c28e39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/52c4933beb2655a1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/59642cbd7dcd410f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/5fcc3f498d74bcb6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/902b080de1fd2b03.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/92929478bae5b7d2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/9705db58e01b6af7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/98ed9210111a5118.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/a2dc2e8c0ca02cc2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/a47fd5f5c6681ef4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/a5e96225ef289f8a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/b8afc3edaa4c02b0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/bf5e7ca58c003586.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/c021380dc2045af5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/cd604927fa0b7192.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/d4b83f680c9aaa41.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/ded54d80fb4a7698.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e0d540f5bfb7a280.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e2edda4f1791537a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e3c0a63d72af0a45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e3edaedeb89040ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e438405c3ac7258.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f14c4cbf107627a4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f3797ece02972af9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/fab6c3d56f871af9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/fcbf7f9786ca1ddc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/src/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,43 +21,64 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AutoMarketPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JoinPointImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+            <state relative-caret-position="442">
+              <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarAnnouncementTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#3111#3112#0" expanded="true" />
-                <element signature="e#3148#3149#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataForFilers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java">
+      <file leaf-file-name="AutoMarketPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoinPointImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
+      <file leaf-file-name="CarAnnouncementPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="292">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnlinerHomePageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,32 +86,12 @@
       <file leaf-file-name="CarMarketTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="527">
               <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#503#504#0" expanded="true" />
                 <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarAnnouncementTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,24 +100,10 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarAnnouncementPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +112,7 @@
       <file leaf-file-name="ElementsUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="119">
               <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -183,30 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeftMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StepsAspects.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.8.1/allure-java-commons-2.8.1.jar!/io/qameta/allure/aspects/StepsAspects.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="493">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
@@ -262,11 +180,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java" />
       </list>
     </option>
   </component>
@@ -317,6 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -364,16 +284,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="onlinerautomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onliner-car-sales" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="onlinerautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onliner-car-sales" type="b2602c69:ProjectViewProjectNode" />
@@ -456,8 +366,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -709,21 +617,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 00m 13s.xml">
-      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 03m 07s.xml">
-      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 04m 26s.xml">
-      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 07m 49s.xml">
-      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 09m 57s.xml">
-      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 13m 16s.xml">
       <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
@@ -739,36 +632,71 @@
     <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 21m 13s.xml">
       <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CarAnnouncementTest_testOpenCarAnnouncement - 2019.01.30 at 12h 35m 12s.xml">
+      <configuration name="CarAnnouncementTest.testOpenCarAnnouncement" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OnlinerHomePageTest_testOnlinerHomePage - 2019.01.30 at 12h 35m 37s.xml">
+      <configuration name="OnlinerHomePageTest.testOnlinerHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CarMarketTest - 2019.01.30 at 12h 40m 45s.xml">
+      <configuration name="CarMarketTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CarAnnouncementTest_testVerifyPageElements - 2019.01.30 at 13h 40m 31s.xml">
+      <configuration name="CarAnnouncementTest.testVerifyPageElements" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CarAnnouncementTest_testVerifyPageElements - 2019.01.30 at 13h 42m 01s.xml">
+      <configuration name="CarAnnouncementTest.testVerifyPageElements" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.42234638" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.20670392" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.23240939" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3642458" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49946696" visible="true" weight="0.30614525" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.42234638" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.3642458" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.23240939" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3642458" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" visible="true" weight="0.20111732" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info id="Designer" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.30614525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3642458" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.20670392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.42234638" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.23240939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -779,15 +707,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java</url>
-          <line>100</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="11" />
@@ -833,18 +755,176 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/SuiteConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/Await.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5860">
+          <caret line="577" column="32" lean-forward="true" selection-start-line="577" selection-start-column="32" selection-end-line="577" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="450" selection-start-line="450" selection-end-line="450" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/LeftMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/data/DataForFilers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.8.1/allure-java-commons-2.8.1.jar!/io/qameta/allure/aspects/StepsAspects.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/onliner-car-sales.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -873,9 +953,6 @@
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -944,17 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,11 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,25 +1060,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/Await.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5860">
           <caret line="577" column="32" lean-forward="true" selection-start-line="577" selection-start-column="32" selection-end-line="577" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,54 +1083,24 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="442">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.8.1/allure-java-commons-2.8.1.jar!/io/qameta/allure/aspects/StepsAspects.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="493">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/utils/ElementsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="119">
           <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1096,58 +1109,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1156,6 +1126,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/OnlinerHomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarMarketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/onlinerautomation/test/CarAnnouncementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/AutoMarketPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinerautomation/page/CarAnnouncementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
