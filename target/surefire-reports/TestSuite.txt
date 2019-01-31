@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 318.68 s <<< FAILURE! - in TestSuite
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.096 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at com.onlinerautomation.test.CarMarketTest.testFilterByCarBodyTypes(CarMarketTest.java:27)
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 1.95 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.195 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 1.959 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.495 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.055 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.41 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.329 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.83 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarBodyTypes(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.533 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarEngineType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.057 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarEngineType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.635 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarEngineType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.5 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarEngineType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.017 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarEngineType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.186 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarTransmissionType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.056 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testFilterByCarTransmissionType(com.onlinerautomation.test.CarMarketTest)  Time elapsed: 2.574 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException
+
+testOnlinerPositiveSearch(com.onlinerautomation.test.SearchTest)  Time elapsed: 7.597 s  <<< FAILURE!
+java.lang.AssertionError: Product information is not correct: Lists differ at element [0]: Apple iPhone 7 32GB Black != Смартфон Apple iPhone 7 32GB Black expected [Apple iPhone 7 32GB Black] but found [Смартфон Apple iPhone 7 32GB Black]
+	at com.onlinerautomation.test.SearchTest.testOnlinerPositiveSearch(SearchTest.java:28)
+

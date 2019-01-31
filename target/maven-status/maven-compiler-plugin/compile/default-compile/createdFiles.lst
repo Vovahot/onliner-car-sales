@@ -1,0 +1,16 @@
+com\onlinerautomation\utils\ElementsUtil$4.class
+com\onlinerautomation\page\LeftMenu.class
+com\onlinerautomation\page\ProductPage.class
+com\onlinerautomation\utils\ElementsUtil$3.class
+com\onlinerautomation\utils\ElementsUtil.class
+com\onlinerautomation\data\DataForFilers.class
+com\onlinerautomation\page\CarAnnouncementPage.class
+com\onlinerautomation\utils\ElementsUtil$2.class
+com\onlinerautomation\page\HomePage.class
+com\onlinerautomation\utils\SuiteConfiguration.class
+com\onlinerautomation\utils\Await.class
+com\onlinerautomation\utils\ElementsUtil$1.class
+com\onlinerautomation\utils\Await$1.class
+com\onlinerautomation\page\AutoMarketPage.class
+com\onlinerautomation\page\Page.class
+com\onlinerautomation\utils\WebDriverManager.class

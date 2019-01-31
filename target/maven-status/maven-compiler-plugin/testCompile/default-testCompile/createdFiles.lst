@@ -1,0 +1,6 @@
+com\onlinerautomation\test\CarMarketTest.class
+com\onlinerautomation\test\OnlinerHomePageTest.class
+com\onlinerautomation\test\SearchTest.class
+utils\listeners\AllureListener.class
+com\onlinerautomation\TestBase.class
+com\onlinerautomation\test\CarAnnouncementTest.class

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Smoke</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">18</td><td class="num">313,182</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="17">com.onlinerautomation.test.CarMarketTest</td><td><a href="#m0">testFilterByCarBodyTypes</a></td><td rowspan="10">1548935059352</td><td rowspan="10">1916</td></tr><tr class="failedeven"><td><a href="#m1">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m2">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m3">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m4">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m5">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m6">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m7">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m8">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m9">testFilterByCarBodyTypes</a></td></tr><tr class="failedeven"><td><a href="#m10">testFilterByCarEngineType</a></td><td rowspan="5">1548935073042</td><td rowspan="5">1442</td></tr><tr class="failedeven"><td><a href="#m11">testFilterByCarEngineType</a></td></tr><tr class="failedeven"><td><a href="#m12">testFilterByCarEngineType</a></td></tr><tr class="failedeven"><td><a href="#m13">testFilterByCarEngineType</a></td></tr><tr class="failedeven"><td><a href="#m14">testFilterByCarEngineType</a></td></tr><tr class="failedeven"><td><a href="#m15">testFilterByCarTransmissionType</a></td><td rowspan="2">1548935136180</td><td rowspan="2">1421</td></tr><tr class="failedeven"><td><a href="#m16">testFilterByCarTransmissionType</a></td></tr><tr class="failedodd"><td rowspan="1">com.onlinerautomation.test.SearchTest</td><td><a href="#m17">testOnlinerPositiveSearch</a></td><td rowspan="1">1548935164473</td><td rowspan="1">7149</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.onlinerautomation.test.CarAnnouncementTest</td><td><a href="#m18">testComparePreviewAndOpenedAnnouncementData</a></td><td rowspan="1">1548934884251</td><td rowspan="1">27593</td></tr><tr class="passedeven"><td><a href="#m19">testVerifyPageElements</a></td><td rowspan="1">1548934924540</td><td rowspan="1">7132</td></tr><tr class="passedodd"><td rowspan="1">com.onlinerautomation.test.OnlinerHomePageTest</td><td><a href="#m20">testOnlinerHomePage</a></td><td rowspan="1">1548935156651</td><td rowspan="1">1166</td></tr><tr class="passedeven"><td rowspan="1">com.onlinerautomation.test.SearchTest</td><td><a href="#m21">testProductPageElements</a></td><td rowspan="1">1548935178927</td><td rowspan="1">6151</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р¤СѓСЂРіРѕРЅ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РЎРµРґР°РЅ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:422)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at com.sun.proxy.$Proxy16.get(Unknown Source)
+	at com.onlinerautomation.page.LeftMenu.getCarType(LeftMenu.java:61)
+	at com.onlinerautomation.page.AutoMarketPage.setCarFilteryType_aroundBody2(AutoMarketPage.java:72)
+	at com.onlinerautomation.page.AutoMarketPage$AjcClosure3.run(AutoMarketPage.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:50)
+	at com.onlinerautomation.page.AutoMarketPage.setCarFilteryType(AutoMarketPage.java:71)
+	at com.onlinerautomation.test.CarMarketTest.testFilterByCarBodyTypes(CarMarketTest.java:27)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р’РЅРµРґРѕСЂРѕР¶РЅРёРє</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РљР°Р±СЂРёРѕР»РµС‚</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РњРёРЅРёРІСЌРЅ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РњРёРєСЂРѕР°РІС‚РѕР±СѓСЃ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РҐРµС‚С‡Р±СЌРє</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РџРёРєР°Рї</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РЈРЅРёРІРµСЂСЃР°Р»</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.onlinerautomation.test.CarMarketTest#testFilterByCarBodyTypes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РљСѓРїРµ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.onlinerautomation.test.CarMarketTest#testFilterByCarEngineType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р‘РµРЅР·РёРЅ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.onlinerautomation.test.CarMarketTest#testFilterByCarEngineType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р“Р°Р· (Р±РµРЅР·РёРЅ)</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.onlinerautomation.test.CarMarketTest#testFilterByCarEngineType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р”РёР·РµР»СЊ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.onlinerautomation.test.CarMarketTest#testFilterByCarEngineType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р­Р»РµРєС‚СЂРѕРјРѕР±РёР»СЊ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.onlinerautomation.test.CarMarketTest#testFilterByCarEngineType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Р“РёР±СЂРёРґ (Р±РµРЅР·РёРЅ)</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.onlinerautomation.test.CarMarketTest#testFilterByCarTransmissionType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РђРІС‚РѕРјР°С‚РёС‡РµСЃРєР°СЏ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.onlinerautomation.test.CarMarketTest#testFilterByCarTransmissionType</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.onlinerautomation.test.SearchTest#testOnlinerPositiveSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Product information is not correct: Lists differ at element [0]: Apple iPhone 7 32GB Black != Смартфон Apple iPhone 7 32GB Black expected [Apple iPhone 7 32GB Black] but found [Смартфон Apple iPhone 7 32GB Black]
+	at com.onlinerautomation.page.ProductPage.verifyProductInfo_aroundBody0(ProductPage.java:34)
+	at com.onlinerautomation.page.ProductPage$AjcClosure1.run(ProductPage.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:50)
+	at com.onlinerautomation.page.ProductPage.verifyProductInfo(ProductPage.java:32)
+	at com.onlinerautomation.test.SearchTest.testOnlinerPositiveSearch(SearchTest.java:28)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.onlinerautomation.test.CarAnnouncementTest#testComparePreviewAndOpenedAnnouncementData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.onlinerautomation.test.CarAnnouncementTest#testVerifyPageElements</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.onlinerautomation.test.OnlinerHomePageTest#testOnlinerHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.onlinerautomation.test.SearchTest#testProductPageElements</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

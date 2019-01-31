@@ -24,7 +24,7 @@ public class ProductPage extends Page {
     private WebElement productSpec;
 
     public List<String> getProductInfo() {
-        return asList(goodTitle.getText().replace("Смартфон ", ""), itemDescription.getText());
+        return asList(goodTitle.getText().replaceAll("Смартфон ", ""), itemDescription.getText());
     }
 
     @Step("Verify product information")
