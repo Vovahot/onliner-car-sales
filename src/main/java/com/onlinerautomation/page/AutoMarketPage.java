@@ -97,6 +97,7 @@ public class AutoMarketPage extends Page {
 
     @Step("One first car announcement")
     public CarAnnouncementPage openFirstAnnouncement() {
+        logger.info("Open car announcement");
         ElementsUtil.waitForVisible(announcementTitle);
         WebElement element = announcementList.get(0);
         getAnnouncementInfo(element);
