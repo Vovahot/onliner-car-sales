@@ -2,6 +2,7 @@ package com.onlinerautomation.page;
 
 import com.onlinerautomation.utils.ElementsUtil;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 
+@Slf4j
 public class CarAnnouncementPage extends Page {
 
     protected AutoMarketPage autoMarketPage = new AutoMarketPage(driver);
@@ -44,7 +46,7 @@ public class CarAnnouncementPage extends Page {
 
     @Step("Verify car info")
     public CarAnnouncementPage verifyCarInformation() {
-        logger.info("Verify car information");
+        log.info("Verify car information");
         ElementsUtil.waitForVisible(announcementTitle);
         SoftAssert softAssert = new SoftAssert();
         ((JavascriptExecutor) driver).executeScript("return arguments[0].scrollIntoView();", carName);
@@ -57,7 +59,7 @@ public class CarAnnouncementPage extends Page {
 
     @Step("Verify car pape elements")
     public CarAnnouncementPage verifyCarAnnouncementElements() {
-        logger.info("Verify announcement page elements");
+        log.info("Verify announcement page elements");
         SoftAssert softAssert = new SoftAssert();
         ElementsUtil.waitForVisible(announcementTitle);
         softAssert.assertTrue(!photoSlideBar.isEmpty(), "Photo slidebar is empty");

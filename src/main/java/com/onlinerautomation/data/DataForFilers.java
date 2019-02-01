@@ -38,4 +38,11 @@ public class DataForFilers {
         };
     }
 
+    @DataProvider(name = "Filter by price")
+    public static Object[] getCarPtices() {
+        return new Object[][]{
+                {"1000", "1000"},
+                {"2000", "2000"}
+        };
+    }
 }

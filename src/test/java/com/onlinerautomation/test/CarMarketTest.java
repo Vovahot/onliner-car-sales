@@ -4,6 +4,7 @@ import com.onlinerautomation.TestBase;
 import com.onlinerautomation.data.DataForFilers;
 import com.onlinerautomation.page.AutoMarketPage;
 import com.onlinerautomation.page.HomePage;
+import com.sun.javafx.binding.StringFormatter;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -45,6 +46,14 @@ public class CarMarketTest extends TestBase {
         autoMarketPage.verityCardList()
                 .setCarFilteryType(expected, data)
                 .varifyCarCountForFilter(expected, data);
+    }
+
+    @Test(description = "Filtering car announcement by price",
+    dataProvider = "Filter by price", dataProviderClass = DataForFilers.class)
+    public void testMinPrice(String minPrice, String maxPrice) {
+        autoMarketPage.selectkMinPrice(minPrice)
+                .selectMaxPrice(maxPrice)
+                .verifyCarList(minPrice, maxPrice);
     }
 
     @Override

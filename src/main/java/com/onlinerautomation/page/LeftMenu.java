@@ -1,16 +1,20 @@
 package com.onlinerautomation.page;
 
-import com.onlinerautomation.utils.ElementsUtil;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import ru.yandex.qatools.htmlelements.element.Select;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static com.onlinerautomation.utils.ElementsUtil.waitForVisible;
+
+@Slf4j
 public class LeftMenu extends Page {
 
     public LeftMenu(WebDriver driver) {
@@ -32,6 +36,12 @@ public class LeftMenu extends Page {
     @FindBy(css = ".autoba-count .count")
     private WebElement headerAnnouncementCount;
 
+    @FindBy(css = "[name='min-price']")
+    private WebElement minPriceDropDown;
+
+    @FindBy(css = "[name='max-price']")
+    private WebElement maxPriceDropDown;
+
     @Step("Get list of car filtered by body type")
     public List<WebElement> getCarBodyTypeList() {
         return carBodyTypeList;
@@ -49,7 +59,7 @@ public class LeftMenu extends Page {
 
     @Step("Get car announcement count")
     public String getHeaderAnnouncementCount() {
-        ElementsUtil.waitForVisible(headerAnnouncementCount);
+        waitForVisible(headerAnnouncementCount);
         return headerAnnouncementCount.getText();
     }
 
@@ -67,5 +77,16 @@ public class LeftMenu extends Page {
         bodyTypeNames = dataList.stream().map(WebElement::getText).collect(Collectors.toList());
         for (String str : bodyTypeNames) carBodyTypeNames.add(str.split(" ")[0]);
         return dataList.get(carBodyTypeNames.indexOf(filterData)).findElement(By.cssSelector(".count"));
+    }
+
+    public void setMinPriceValue(String data) {
+        waitForVisible(headerAnnouncementCount);
+        Select minPrice = new Select(minPriceDropDown);
+        minPrice.selectByValue(data);
+    }
+
+    public void setMaxPrice(String data) {
+        Select maxPrice = new Select(maxPriceDropDown);
+        maxPrice.selectByValue(data);
     }
 }

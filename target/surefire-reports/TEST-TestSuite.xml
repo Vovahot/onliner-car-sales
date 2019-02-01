@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="318.68" tests="22" errors="0" skipped="0" failures="18">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="305.125" tests="22" errors="0" skipped="0" failures="18">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\test-classes;C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\classes;C:\Users\ukhatsko\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ukhatsko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ukhatsko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ukhatsko\.m2\repository\ru\stqa\selenium\webdriver-factory\4.3\webdriver-factory-4.3.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-java\3.10.0\selenium-java-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-api\3.10.0\selenium-api-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.10.0\selenium-chrome-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.10.0\selenium-edge-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.10.0\selenium-firefox-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.10.0\selenium-ie-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.10.0\selenium-opera-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.10.0\selenium-remote-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.10.0\selenium-safari-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-support\3.10.0\selenium-support-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ukhatsko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.2\htmlunit-driver-2.29.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar;C:\Users\ukhatsko\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-text\1.2\commons-text-1.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar;C:\Users\ukhatsko\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ukhatsko\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar;C:\Users\ukhatsko\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20171121\websocket-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20171121\jetty-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20171121\jetty-xml-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20171121\websocket-common-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20171121\websocket-api-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\ukhatsko\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.4\webdrivermanager-2.2.4.jar;C:\Users\ukhatsko\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\ukhatsko\.m2\repository\org\rauschig\jarchivelib\0.8.0\jarchivelib-0.8.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-compress\1.14\commons-compress-1.14.jar;C:\Users\ukhatsko\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta0\slf4j-api-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-log4j12\1.8.0-beta0\slf4j-log4j12-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ukhatsko\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ukhatsko\.m2\repository\io\rest-assured\json-schema-validator\3.2.0\json-schema-validator-3.2.0.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\ukhatsko\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\ukhatsko\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\ukhatsko\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\ukhatsko\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ukhatsko\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ukhatsko\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-testng\2.8.1\allure-testng-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.8.1\allure-descriptions-javadoc-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-java-commons\2.8.1\allure-java-commons-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-model\2.8.1\allure-model-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\org\apache\tika\tika-core\1.19.1\tika-core-1.19.1.jar;C:\Users\ukhatsko\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\ukhatsko\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ukhatsko\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ukhatsko\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\ukhatsko\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\ukhatsko\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr\0.9.2\vavr-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr-match\0.9.2\vavr-match-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-java\1.19\htmlelements-java-1.19.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\test-classes;C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\classes;C:\Users\ukhatsko\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ukhatsko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ukhatsko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ukhatsko\.m2\repository\ru\stqa\selenium\webdriver-factory\4.3\webdriver-factory-4.3.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-java\3.10.0\selenium-java-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-api\3.10.0\selenium-api-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.10.0\selenium-chrome-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.10.0\selenium-edge-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.10.0\selenium-firefox-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.10.0\selenium-ie-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.10.0\selenium-opera-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.10.0\selenium-remote-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.10.0\selenium-safari-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-support\3.10.0\selenium-support-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ukhatsko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.2\htmlunit-driver-2.29.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar;C:\Users\ukhatsko\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-text\1.2\commons-text-1.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar;C:\Users\ukhatsko\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ukhatsko\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar;C:\Users\ukhatsko\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20171121\websocket-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20171121\jetty-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20171121\jetty-xml-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20171121\websocket-common-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20171121\websocket-api-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\ukhatsko\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.4\webdrivermanager-2.2.4.jar;C:\Users\ukhatsko\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\ukhatsko\.m2\repository\org\rauschig\jarchivelib\0.8.0\jarchivelib-0.8.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-compress\1.14\commons-compress-1.14.jar;C:\Users\ukhatsko\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta0\slf4j-api-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-log4j12\1.8.0-beta0\slf4j-log4j12-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ukhatsko\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ukhatsko\.m2\repository\io\rest-assured\json-schema-validator\3.2.0\json-schema-validator-3.2.0.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\ukhatsko\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\ukhatsko\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\ukhatsko\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\ukhatsko\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ukhatsko\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ukhatsko\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-testng\2.8.1\allure-testng-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.8.1\allure-descriptions-javadoc-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-java-commons\2.8.1\allure-java-commons-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-model\2.8.1\allure-model-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\org\apache\tika\tika-core\1.19.1\tika-core-1.19.1.jar;C:\Users\ukhatsko\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\ukhatsko\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ukhatsko\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ukhatsko\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\ukhatsko\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\ukhatsko\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr\0.9.2\vavr-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr-match\0.9.2\vavr-match-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-java\1.19\htmlelements-java-1.19.jar;C:\Users\ukhatsko\.m2\repository\org\projectlombok\lombok\1.18.0\lombok-1.18.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="application.properties" value="/application.properties"/>
@@ -19,8 +19,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ukhatsko\AppData\Local\Temp\surefire3418315017308681104\surefirebooter4370283246046288142.jar C:\Users\ukhatsko\AppData\Local\Temp\surefire3418315017308681104 2019-01-31T14-41-05_459-jvmRun1 surefire8892500304628137033tmp surefire_04727032404362281160tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\test-classes;C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\classes;C:\Users\ukhatsko\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ukhatsko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ukhatsko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ukhatsko\.m2\repository\ru\stqa\selenium\webdriver-factory\4.3\webdriver-factory-4.3.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-java\3.10.0\selenium-java-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-api\3.10.0\selenium-api-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.10.0\selenium-chrome-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.10.0\selenium-edge-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.10.0\selenium-firefox-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.10.0\selenium-ie-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.10.0\selenium-opera-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.10.0\selenium-remote-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.10.0\selenium-safari-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-support\3.10.0\selenium-support-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ukhatsko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.2\htmlunit-driver-2.29.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar;C:\Users\ukhatsko\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-text\1.2\commons-text-1.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar;C:\Users\ukhatsko\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ukhatsko\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar;C:\Users\ukhatsko\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20171121\websocket-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20171121\jetty-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20171121\jetty-xml-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20171121\websocket-common-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20171121\websocket-api-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\ukhatsko\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.4\webdrivermanager-2.2.4.jar;C:\Users\ukhatsko\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\ukhatsko\.m2\repository\org\rauschig\jarchivelib\0.8.0\jarchivelib-0.8.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-compress\1.14\commons-compress-1.14.jar;C:\Users\ukhatsko\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta0\slf4j-api-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-log4j12\1.8.0-beta0\slf4j-log4j12-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ukhatsko\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ukhatsko\.m2\repository\io\rest-assured\json-schema-validator\3.2.0\json-schema-validator-3.2.0.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\ukhatsko\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\ukhatsko\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\ukhatsko\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\ukhatsko\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ukhatsko\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ukhatsko\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-testng\2.8.1\allure-testng-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.8.1\allure-descriptions-javadoc-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-java-commons\2.8.1\allure-java-commons-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-model\2.8.1\allure-model-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\org\apache\tika\tika-core\1.19.1\tika-core-1.19.1.jar;C:\Users\ukhatsko\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\ukhatsko\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ukhatsko\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ukhatsko\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\ukhatsko\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\ukhatsko\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr\0.9.2\vavr-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr-match\0.9.2\vavr-match-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-java\1.19\htmlelements-java-1.19.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.java.command" value="C:\Users\ukhatsko\AppData\Local\Temp\surefire6398002776410835308\surefirebooter946366226981690182.jar C:\Users\ukhatsko\AppData\Local\Temp\surefire6398002776410835308 2019-02-01T10-43-13_532-jvmRun1 surefire1412547825872220824tmp surefire_08061737578632326497tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\test-classes;C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales\target\classes;C:\Users\ukhatsko\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ukhatsko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ukhatsko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ukhatsko\.m2\repository\ru\stqa\selenium\webdriver-factory\4.3\webdriver-factory-4.3.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-java\3.10.0\selenium-java-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-api\3.10.0\selenium-api-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.10.0\selenium-chrome-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.10.0\selenium-edge-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.10.0\selenium-firefox-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.10.0\selenium-ie-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.10.0\selenium-opera-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.10.0\selenium-remote-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.10.0\selenium-safari-driver-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\selenium-support\3.10.0\selenium-support-3.10.0.jar;C:\Users\ukhatsko\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ukhatsko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ukhatsko\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ukhatsko\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.2\htmlunit-driver-2.29.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar;C:\Users\ukhatsko\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-text\1.2\commons-text-1.2.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar;C:\Users\ukhatsko\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ukhatsko\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ukhatsko\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar;C:\Users\ukhatsko\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ukhatsko\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20171121\websocket-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20171121\jetty-client-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20171121\jetty-xml-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20171121\websocket-common-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20171121\websocket-api-9.4.8.v20171121.jar;C:\Users\ukhatsko\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\ukhatsko\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.4\webdrivermanager-2.2.4.jar;C:\Users\ukhatsko\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\ukhatsko\.m2\repository\org\rauschig\jarchivelib\0.8.0\jarchivelib-0.8.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\commons\commons-compress\1.14\commons-compress-1.14.jar;C:\Users\ukhatsko\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta0\slf4j-api-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\org\slf4j\slf4j-log4j12\1.8.0-beta0\slf4j-log4j12-1.8.0-beta0.jar;C:\Users\ukhatsko\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ukhatsko\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ukhatsko\.m2\repository\io\rest-assured\json-schema-validator\3.2.0\json-schema-validator-3.2.0.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\ukhatsko\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\ukhatsko\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ukhatsko\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\ukhatsko\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\ukhatsko\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ukhatsko\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\ukhatsko\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-testng\2.8.1\allure-testng-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.8.1\allure-descriptions-javadoc-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-java-commons\2.8.1\allure-java-commons-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\io\qameta\allure\allure-model\2.8.1\allure-model-2.8.1.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\ukhatsko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\ukhatsko\.m2\repository\org\apache\tika\tika-core\1.19.1\tika-core-1.19.1.jar;C:\Users\ukhatsko\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\ukhatsko\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ukhatsko\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ukhatsko\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ukhatsko\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ukhatsko\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ukhatsko\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\ukhatsko\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\ukhatsko\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr\0.9.2\vavr-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\io\vavr\vavr-match\0.9.2\vavr-match-0.9.2.jar;C:\Users\ukhatsko\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-java\1.19\htmlelements-java-1.19.jar;C:\Users\ukhatsko\.m2\repository\org\projectlombok\lombok\1.18.0\lombok-1.18.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ukhatsko\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="allure.results.directory" value="C:\Users\ukhatsko\Desktop\Projects\onliner-car-sales/target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ukhatsko"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ukhatsko\AppData\Local\Temp\surefire3418315017308681104\surefirebooter4370283246046288142.jar;C:\Users\ukhatsko\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ukhatsko\AppData\Local\Temp\surefire6398002776410835308\surefirebooter946366226981690182.jar;C:\Users\ukhatsko\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,335 +63,333 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testComparePreviewAndOpenedAnnouncementData" classname="com.onlinerautomation.test.CarAnnouncementTest" time="27.561"/>
-  <testcase name="testVerifyPageElements" classname="com.onlinerautomation.test.CarAnnouncementTest" time="7.134"/>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.096">
+  <testcase name="testComparePreviewAndOpenedAnnouncementData" classname="com.onlinerautomation.test.CarAnnouncementTest" time="5.97"/>
+  <testcase name="testVerifyPageElements" classname="com.onlinerautomation.test.CarAnnouncementTest" time="7.188"/>
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.506">
     <failure message="-1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: -1
 	at com.onlinerautomation.test.CarMarketTest.testFilterByCarBodyTypes(CarMarketTest.java:27)
 </failure>
-    <system-out><![CDATA[2019-01-31 14:42:11 CarAnnouncementTest:57 - Close WebDriver
-2019-01-31 14:42:12 CarMarketTest:44 - Initialize test class
-2019-01-31 14:42:12 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:42:12 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:42:20 HomePage:47 - Click on car market button
-2019-01-31 14:42:25 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:42:26 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:42:26 AutoMarketPage:71 - Select [РЎРµРґР°РЅ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:43:55 TestBase:53 - Close WebDriver
+2019-02-01 10:43:56 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:43:56 TestBase:59 - Web driver was initialized
+2019-02-01 10:44:03 HomePage:49 - Click on car market button
+2019-02-01 10:44:05 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:44:07 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:44:07 AutoMarketPage:73 - Select [РЎРµРґР°РЅ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 11858
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 16774
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:42:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:43:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="1.95">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.088">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:42:27 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:42:28 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:42:28 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:42:35 HomePage:47 - Click on car market button
-2019-01-31 14:42:37 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:42:38 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:42:38 AutoMarketPage:71 - Select [РЈРЅРёРІРµСЂСЃР°Р»] car in car filter
+    <system-out><![CDATA[2019-02-01 10:44:08 TestBase:53 - Close WebDriver
+2019-02-01 10:44:09 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:44:09 TestBase:59 - Web driver was initialized
+2019-02-01 10:44:16 HomePage:49 - Click on car market button
+2019-02-01 10:44:20 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:44:21 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:44:21 AutoMarketPage:73 - Select [РЈРЅРёРІРµСЂСЃР°Р»] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 29465
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 42276
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:42:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:44:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.195">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.024">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:42:39 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:42:40 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:42:40 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:42:47 HomePage:47 - Click on car market button
-2019-01-31 14:42:50 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:42:51 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:42:51 AutoMarketPage:71 - Select [РҐРµС‚С‡Р±СЌРє] car in car filter
+    <system-out><![CDATA[2019-02-01 10:44:22 TestBase:53 - Close WebDriver
+2019-02-01 10:44:23 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:44:23 TestBase:59 - Web driver was initialized
+2019-02-01 10:44:31 HomePage:49 - Click on car market button
+2019-02-01 10:44:34 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:44:35 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:44:36 AutoMarketPage:73 - Select [РҐРµС‚С‡Р±СЌРє] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 4057
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 40614
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:42:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:44:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="1.959">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.524">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:42:52 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:42:53 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:42:53 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:43:00 HomePage:47 - Click on car market button
-2019-01-31 14:43:02 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:43:03 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:43:03 AutoMarketPage:71 - Select [РњРёРЅРёРІСЌРЅ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:44:36 TestBase:53 - Close WebDriver
+2019-02-01 10:44:37 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:44:37 TestBase:59 - Web driver was initialized
+2019-02-01 10:44:44 HomePage:49 - Click on car market button
+2019-02-01 10:44:46 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:44:48 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:44:48 AutoMarketPage:73 - Select [РњРёРЅРёРІСЌРЅ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 2591
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 32542
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:42:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:44:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.495">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.029">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:43:04 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:43:05 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:43:05 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:43:12 HomePage:47 - Click on car market button
-2019-01-31 14:43:13 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:43:14 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:43:14 AutoMarketPage:71 - Select [Р’РЅРµРґРѕСЂРѕР¶РЅРёРє] car in car filter
+    <system-out><![CDATA[2019-02-01 10:44:49 TestBase:53 - Close WebDriver
+2019-02-01 10:44:50 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:44:50 TestBase:59 - Web driver was initialized
+2019-02-01 10:44:57 HomePage:49 - Click on car market button
+2019-02-01 10:45:00 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:45:01 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:45:01 AutoMarketPage:73 - Select [Р’РЅРµРґРѕСЂРѕР¶РЅРёРє] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 22954
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 33458
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:43:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:44:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.055">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.392">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:43:16 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:43:17 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:43:17 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:43:24 HomePage:47 - Click on car market button
-2019-01-31 14:43:28 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:43:29 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:43:29 AutoMarketPage:71 - Select [РљСѓРїРµ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:45:02 TestBase:53 - Close WebDriver
+2019-02-01 10:45:03 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:45:03 TestBase:59 - Web driver was initialized
+2019-02-01 10:45:10 HomePage:49 - Click on car market button
+2019-02-01 10:45:12 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:45:13 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:45:13 AutoMarketPage:73 - Select [РљСѓРїРµ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 11807
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 5154
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:43:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:45:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.41">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.525">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:43:30 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:43:31 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:43:31 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:43:38 HomePage:47 - Click on car market button
-2019-01-31 14:43:39 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:43:41 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:43:41 AutoMarketPage:71 - Select [РљР°Р±СЂРёРѕР»РµС‚] car in car filter
+    <system-out><![CDATA[2019-02-01 10:45:14 TestBase:53 - Close WebDriver
+2019-02-01 10:45:15 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:45:15 TestBase:59 - Web driver was initialized
+2019-02-01 10:45:23 HomePage:49 - Click on car market button
+2019-02-01 10:45:25 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:45:26 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:45:26 AutoMarketPage:73 - Select [РљР°Р±СЂРёРѕР»РµС‚] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 31570
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 42223
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:43:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:45:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.329">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.48">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:43:42 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:43:43 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:43:43 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:43:50 HomePage:47 - Click on car market button
-2019-01-31 14:43:53 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:43:54 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:43:54 AutoMarketPage:71 - Select [РњРёРєСЂРѕР°РІС‚РѕР±СѓСЃ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:45:28 TestBase:53 - Close WebDriver
+2019-02-01 10:45:29 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:45:29 TestBase:59 - Web driver was initialized
+2019-02-01 10:45:36 HomePage:49 - Click on car market button
+2019-02-01 10:45:38 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:45:40 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:45:40 AutoMarketPage:73 - Select [РњРёРєСЂРѕР°РІС‚РѕР±СѓСЃ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 30984
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 34850
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:43:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:45:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.83">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.458">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:43:55 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:43:56 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:43:56 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:44:03 HomePage:47 - Click on car market button
-2019-01-31 14:44:05 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:44:07 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:44:07 AutoMarketPage:71 - Select [РџРёРєР°Рї] car in car filter
+    <system-out><![CDATA[2019-02-01 10:45:41 TestBase:53 - Close WebDriver
+2019-02-01 10:45:42 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:45:42 TestBase:59 - Web driver was initialized
+2019-02-01 10:45:49 HomePage:49 - Click on car market button
+2019-02-01 10:45:51 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:45:53 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:45:53 AutoMarketPage:73 - Select [РџРёРєР°Рї] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 7537
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 3984
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:43:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:45:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.533">
+  <testcase name="testFilterByCarBodyTypes" classname="com.onlinerautomation.test.CarMarketTest" time="2.665">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:44:08 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:44:09 CarMarketTest:49 - Method name: testFilterByCarBodyTypes
-2019-01-31 14:44:09 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:44:16 HomePage:47 - Click on car market button
-2019-01-31 14:44:19 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:44:20 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:44:20 AutoMarketPage:71 - Select [Р¤СѓСЂРіРѕРЅ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:45:54 TestBase:53 - Close WebDriver
+2019-02-01 10:45:55 TestBase:45 - Method name: testFilterByCarBodyTypes
+2019-02-01 10:45:55 TestBase:59 - Web driver was initialized
+2019-02-01 10:46:02 HomePage:49 - Click on car market button
+2019-02-01 10:46:05 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:46:06 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:46:06 AutoMarketPage:73 - Select [Р¤СѓСЂРіРѕРЅ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 25714
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 41123
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:44:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:45:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.057">
+  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.261">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:44:21 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:44:23 CarMarketTest:49 - Method name: testFilterByCarEngineType
-2019-01-31 14:44:23 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:44:30 HomePage:47 - Click on car market button
-2019-01-31 14:44:33 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:44:34 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:44:34 AutoMarketPage:71 - Select [Р‘РµРЅР·РёРЅ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:46:07 TestBase:53 - Close WebDriver
+2019-02-01 10:46:09 TestBase:45 - Method name: testFilterByCarEngineType
+2019-02-01 10:46:09 TestBase:59 - Web driver was initialized
+2019-02-01 10:46:16 HomePage:49 - Click on car market button
+2019-02-01 10:46:18 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:46:19 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:46:19 AutoMarketPage:73 - Select [Р‘РµРЅР·РёРЅ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 31888
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 13023
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:44:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:46:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.635">
+  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.306">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:44:35 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:44:36 CarMarketTest:49 - Method name: testFilterByCarEngineType
-2019-01-31 14:44:36 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:44:42 HomePage:47 - Click on car market button
-2019-01-31 14:44:44 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:44:45 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:44:45 AutoMarketPage:71 - Select [Р”РёР·РµР»СЊ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:46:20 TestBase:53 - Close WebDriver
+2019-02-01 10:46:21 TestBase:45 - Method name: testFilterByCarEngineType
+2019-02-01 10:46:21 TestBase:59 - Web driver was initialized
+2019-02-01 10:46:28 HomePage:49 - Click on car market button
+2019-02-01 10:46:31 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:46:32 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:46:32 AutoMarketPage:73 - Select [Р”РёР·РµР»СЊ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 26318
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 47783
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:44:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:46:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.5">
+  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.323">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:44:47 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:44:47 CarMarketTest:49 - Method name: testFilterByCarEngineType
-2019-01-31 14:44:47 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:44:54 HomePage:47 - Click on car market button
-2019-01-31 14:44:56 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:44:58 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:44:58 AutoMarketPage:71 - Select [Р“Р°Р· (Р±РµРЅР·РёРЅ)] car in car filter
+    <system-out><![CDATA[2019-02-01 10:46:33 TestBase:53 - Close WebDriver
+2019-02-01 10:46:34 TestBase:45 - Method name: testFilterByCarEngineType
+2019-02-01 10:46:34 TestBase:59 - Web driver was initialized
+2019-02-01 10:46:41 HomePage:49 - Click on car market button
+2019-02-01 10:46:43 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:46:45 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:46:45 AutoMarketPage:73 - Select [Р“Р°Р· (Р±РµРЅР·РёРЅ))] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 30650
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 20938
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:44:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:46:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.017">
+  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.123">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:44:59 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:45:00 CarMarketTest:49 - Method name: testFilterByCarEngineType
-2019-01-31 14:45:00 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:45:07 HomePage:47 - Click on car market button
-2019-01-31 14:45:11 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:45:12 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:45:12 AutoMarketPage:71 - Select [Р“РёР±СЂРёРґ (Р±РµРЅР·РёРЅ)] car in car filter
+    <system-out><![CDATA[2019-02-01 10:46:46 TestBase:53 - Close WebDriver
+2019-02-01 10:46:47 TestBase:45 - Method name: testFilterByCarEngineType
+2019-02-01 10:46:47 TestBase:59 - Web driver was initialized
+2019-02-01 10:46:54 HomePage:49 - Click on car market button
+2019-02-01 10:46:56 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:46:57 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:46:57 AutoMarketPage:73 - Select [Р“РёР±СЂРёРґ (Р±РµРЅР·РёРЅ)] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 1234
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 14323
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:45:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:46:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="2.186">
+  <testcase name="testFilterByCarEngineType" classname="com.onlinerautomation.test.CarMarketTest" time="1.908">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:45:13 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:45:14 CarMarketTest:49 - Method name: testFilterByCarEngineType
-2019-01-31 14:45:14 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:45:21 HomePage:47 - Click on car market button
-2019-01-31 14:45:23 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:45:25 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:45:25 AutoMarketPage:71 - Select [Р­Р»РµРєС‚СЂРѕРјРѕР±РёР»СЊ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:46:58 TestBase:53 - Close WebDriver
+2019-02-01 10:46:59 TestBase:45 - Method name: testFilterByCarEngineType
+2019-02-01 10:46:59 TestBase:59 - Web driver was initialized
+2019-02-01 10:47:06 HomePage:49 - Click on car market button
+2019-02-01 10:47:09 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:47:11 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:47:11 AutoMarketPage:73 - Select [Р­Р»РµРєС‚СЂРѕРјРѕР±РёР»СЊ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 27156
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 42737
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:45:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:47:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarTransmissionType" classname="com.onlinerautomation.test.CarMarketTest" time="2.056">
+  <testcase name="testFilterByCarTransmissionType" classname="com.onlinerautomation.test.CarMarketTest" time="1.774">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:45:25 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:45:26 CarMarketTest:49 - Method name: testFilterByCarTransmissionType
-2019-01-31 14:45:26 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:45:33 HomePage:47 - Click on car market button
-2019-01-31 14:45:36 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:45:37 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:45:37 AutoMarketPage:71 - Select [РђРІС‚РѕРјР°С‚РёС‡РµСЃРєР°СЏ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:47:11 TestBase:53 - Close WebDriver
+2019-02-01 10:47:12 TestBase:45 - Method name: testFilterByCarTransmissionType
+2019-02-01 10:47:12 TestBase:59 - Web driver was initialized
+2019-02-01 10:47:20 HomePage:49 - Click on car market button
+2019-02-01 10:47:23 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:47:24 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:47:24 AutoMarketPage:73 - Select [РђРІС‚РѕРјР°С‚РёС‡РµСЃРєР°СЏ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 43581
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 12656
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:45:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:47:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testFilterByCarTransmissionType" classname="com.onlinerautomation.test.CarMarketTest" time="2.574">
+  <testcase name="testFilterByCarTransmissionType" classname="com.onlinerautomation.test.CarMarketTest" time="2.003">
     <failure type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException
 </failure>
-    <system-out><![CDATA[2019-01-31 14:45:38 CarMarketTest:57 - Close WebDriver
-2019-01-31 14:45:39 CarMarketTest:49 - Method name: testFilterByCarTransmissionType
-2019-01-31 14:45:39 CarMarketTest:63 - Web driver was initialized
-2019-01-31 14:45:46 HomePage:47 - Click on car market button
-2019-01-31 14:45:47 AutoMarketPage:63 - Verify cars annoumcement list
-2019-01-31 14:45:48 NamingUtils:47 - Could not process empty pattern
-2019-01-31 14:45:49 AutoMarketPage:71 - Select [РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ] car in car filter
+    <system-out><![CDATA[2019-02-01 10:47:25 TestBase:53 - Close WebDriver
+2019-02-01 10:47:26 TestBase:45 - Method name: testFilterByCarTransmissionType
+2019-02-01 10:47:26 TestBase:59 - Web driver was initialized
+2019-02-01 10:47:33 HomePage:49 - Click on car market button
+2019-02-01 10:47:35 AutoMarketPage:65 - Verify cars annoumcement list
+2019-02-01 10:47:37 NamingUtils:47 - Could not process empty pattern
+2019-02-01 10:47:37 AutoMarketPage:73 - Select [РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ] car in car filter
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 31387
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 28163
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:45:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:47:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testOnlinerHomePage" classname="com.onlinerautomation.test.OnlinerHomePageTest" time="1.169"/>
-  <testcase name="testOnlinerPositiveSearch" classname="com.onlinerautomation.test.SearchTest" time="7.597">
+  <testcase name="testOnlinerHomePage" classname="com.onlinerautomation.test.OnlinerHomePageTest" time="1.135"/>
+  <testcase name="testOnlinerPositiveSearch" classname="com.onlinerautomation.test.SearchTest" time="12.822">
     <failure message="Product information is not correct: Lists differ at element [0]: Apple iPhone 7 32GB Black != Смартфон Apple iPhone 7 32GB Black expected [Apple iPhone 7 32GB Black] but found [Смартфон Apple iPhone 7 32GB Black]" type="java.lang.AssertionError">java.lang.AssertionError: Product information is not correct: Lists differ at element [0]: Apple iPhone 7 32GB Black != Смартфон Apple iPhone 7 32GB Black expected [Apple iPhone 7 32GB Black] but found [Смартфон Apple iPhone 7 32GB Black]
 	at com.onlinerautomation.test.SearchTest.testOnlinerPositiveSearch(SearchTest.java:28)
 </failure>
-    <system-out><![CDATA[2019-01-31 14:45:57 OnlinerHomePageTest:57 - Close WebDriver
-2019-01-31 14:45:58 SearchTest:44 - Initialize test class
-2019-01-31 14:45:58 SearchTest:49 - Method name: testOnlinerPositiveSearch
-2019-01-31 14:45:58 SearchTest:63 - Web driver was initialized
-2019-01-31 14:46:04 HomePage:60 - Set data into search field
-2019-01-31 14:46:05 HomePage:76 - Open first result from search
-2019-01-31 14:46:10 ProductPage:32 - Verify product information
+    <system-out><![CDATA[2019-02-01 10:47:45 TestBase:53 - Close WebDriver
+2019-02-01 10:47:46 TestBase:45 - Method name: testOnlinerPositiveSearch
+2019-02-01 10:47:46 TestBase:59 - Web driver was initialized
+2019-02-01 10:47:52 HomePage:62 - Set data into search field
+2019-02-01 10:47:54 HomePage:78 - Open first result from search
+2019-02-01 10:48:04 ProductPage:35 - Verify product information
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 9114
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 34627
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 31, 2019 2:46:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 10:47:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testProductPageElements" classname="com.onlinerautomation.test.SearchTest" time="6.155"/>
+  <testcase name="testProductPageElements" classname="com.onlinerautomation.test.SearchTest" time="6.708"/>
 </testsuite>

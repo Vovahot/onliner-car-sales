@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="18" ignored="3" total="25" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke" duration-ms="313182" started-at="2019-01-31T11:41:12Z" finished-at="2019-01-31T11:46:26Z">
+  <suite name="Smoke" duration-ms="300023" started-at="2019-02-01T07:43:20Z" finished-at="2019-02-01T07:48:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="313182" started-at="2019-01-31T11:41:12Z" finished-at="2019-01-31T11:46:26Z">
+    <test name="Test" duration-ms="300023" started-at="2019-02-01T07:43:20Z" finished-at="2019-02-01T07:48:20Z">
       <class name="com.onlinerautomation.test.CarMarketTest">
-        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="initTestClass" is-config="true" duration-ms="1" started-at="2019-01-31T11:42:12Z" finished-at="2019-01-31T11:42:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestClass -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="6984" started-at="2019-01-31T11:42:12Z" finished-at="2019-01-31T11:42:19Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5809" started-at="2019-02-01T07:43:56Z" finished-at="2019-02-01T07:44:02Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="5568" started-at="2019-01-31T11:42:19Z" finished-at="2019-01-31T11:42:25Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3480" started-at="2019-02-01T07:44:02Z" finished-at="2019-02-01T07:44:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1478" started-at="2019-01-31T11:42:25Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:42:26Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1850" started-at="2019-02-01T07:44:05Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:44:07Z">
           <params>
             <param index="0">
               <value>
@@ -47,13 +43,13 @@ at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at com.sun.proxy.$Proxy16.get(Unknown Source)
-at com.onlinerautomation.page.LeftMenu.getCarType(LeftMenu.java:61)
-at com.onlinerautomation.page.AutoMarketPage.setCarFilteryType_aroundBody2(AutoMarketPage.java:72)
+at com.sun.proxy.$Proxy15.get(Unknown Source)
+at com.onlinerautomation.page.LeftMenu.getCarType(LeftMenu.java:63)
+at com.onlinerautomation.page.AutoMarketPage.setCarFilteryType_aroundBody2(AutoMarketPage.java:74)
 at com.onlinerautomation.page.AutoMarketPage$AjcClosure3.run(AutoMarketPage.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:50)
-at com.onlinerautomation.page.AutoMarketPage.setCarFilteryType(AutoMarketPage.java:71)
+at com.onlinerautomation.page.AutoMarketPage.setCarFilteryType(AutoMarketPage.java:73)
 at com.onlinerautomation.test.CarMarketTest.testFilterByCarBodyTypes(CarMarketTest.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -90,11 +86,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="965" started-at="2019-01-31T11:42:27Z" finished-at="2019-01-31T11:42:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="1006" started-at="2019-02-01T07:44:08Z" finished-at="2019-02-01T07:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5813" started-at="2019-01-31T11:42:28Z" finished-at="2019-01-31T11:42:34Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5903" started-at="2019-02-01T07:44:09Z" finished-at="2019-02-01T07:44:15Z">
           <params>
             <param index="0">
               <value>
@@ -105,11 +101,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3447" started-at="2019-01-31T11:42:34Z" finished-at="2019-01-31T11:42:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="5571" started-at="2019-02-01T07:44:15Z" finished-at="2019-02-01T07:44:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1443" started-at="2019-01-31T11:42:37Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:42:39Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1454" started-at="2019-02-01T07:44:20Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:44:22Z">
           <params>
             <param index="0">
               <value>
@@ -126,11 +122,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="953" started-at="2019-01-31T11:42:39Z" finished-at="2019-01-31T11:42:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="977" started-at="2019-02-01T07:44:22Z" finished-at="2019-02-01T07:44:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5993" started-at="2019-01-31T11:42:40Z" finished-at="2019-01-31T11:42:46Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="6044" started-at="2019-02-01T07:44:23Z" finished-at="2019-02-01T07:44:29Z">
           <params>
             <param index="0">
               <value>
@@ -141,11 +137,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3693" started-at="2019-01-31T11:42:46Z" finished-at="2019-01-31T11:42:50Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="4908" started-at="2019-02-01T07:44:29Z" finished-at="2019-02-01T07:44:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1581" started-at="2019-01-31T11:42:50Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:42:51Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1442" started-at="2019-02-01T07:44:34Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:44:36Z">
           <params>
             <param index="0">
               <value>
@@ -162,11 +158,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="986" started-at="2019-01-31T11:42:52Z" finished-at="2019-01-31T11:42:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="988" started-at="2019-02-01T07:44:36Z" finished-at="2019-02-01T07:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5779" started-at="2019-01-31T11:42:53Z" finished-at="2019-01-31T11:42:59Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5937" started-at="2019-02-01T07:44:37Z" finished-at="2019-02-01T07:44:43Z">
           <params>
             <param index="0">
               <value>
@@ -177,11 +173,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="2882" started-at="2019-01-31T11:42:59Z" finished-at="2019-01-31T11:43:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3098" started-at="2019-02-01T07:44:43Z" finished-at="2019-02-01T07:44:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1479" started-at="2019-01-31T11:43:02Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:43:03Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1928" started-at="2019-02-01T07:44:46Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:44:48Z">
           <params>
             <param index="0">
               <value>
@@ -198,11 +194,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="956" started-at="2019-01-31T11:43:04Z" finished-at="2019-01-31T11:43:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="943" started-at="2019-02-01T07:44:49Z" finished-at="2019-02-01T07:44:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5843" started-at="2019-01-31T11:43:05Z" finished-at="2019-01-31T11:43:11Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="6105" started-at="2019-02-01T07:44:50Z" finished-at="2019-02-01T07:44:56Z">
           <params>
             <param index="0">
               <value>
@@ -213,11 +209,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="2586" started-at="2019-01-31T11:43:11Z" finished-at="2019-01-31T11:43:13Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3450" started-at="2019-02-01T07:44:56Z" finished-at="2019-02-01T07:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1598" started-at="2019-01-31T11:43:13Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:43:15Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1487" started-at="2019-02-01T07:45:00Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:45:01Z">
           <params>
             <param index="0">
               <value>
@@ -234,11 +230,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="1011" started-at="2019-01-31T11:43:16Z" finished-at="2019-01-31T11:43:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="954" started-at="2019-02-01T07:45:02Z" finished-at="2019-02-01T07:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5998" started-at="2019-01-31T11:43:17Z" finished-at="2019-01-31T11:43:23Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5979" started-at="2019-02-01T07:45:03Z" finished-at="2019-02-01T07:45:09Z">
           <params>
             <param index="0">
               <value>
@@ -249,11 +245,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="5076" started-at="2019-01-31T11:43:23Z" finished-at="2019-01-31T11:43:28Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3551" started-at="2019-02-01T07:45:09Z" finished-at="2019-02-01T07:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1488" started-at="2019-01-31T11:43:28Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:43:29Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1845" started-at="2019-02-01T07:45:12Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:45:14Z">
           <params>
             <param index="0">
               <value>
@@ -270,11 +266,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="999" started-at="2019-01-31T11:43:30Z" finished-at="2019-01-31T11:43:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="958" started-at="2019-02-01T07:45:14Z" finished-at="2019-02-01T07:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="6054" started-at="2019-01-31T11:43:31Z" finished-at="2019-01-31T11:43:37Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5964" started-at="2019-02-01T07:45:15Z" finished-at="2019-02-01T07:45:21Z">
           <params>
             <param index="0">
               <value>
@@ -285,11 +281,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="2608" started-at="2019-01-31T11:43:37Z" finished-at="2019-01-31T11:43:39Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3563" started-at="2019-02-01T07:45:21Z" finished-at="2019-02-01T07:45:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1869" started-at="2019-01-31T11:43:39Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:43:41Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1880" started-at="2019-02-01T07:45:25Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:45:27Z">
           <params>
             <param index="0">
               <value>
@@ -306,11 +302,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="995" started-at="2019-01-31T11:43:42Z" finished-at="2019-01-31T11:43:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="985" started-at="2019-02-01T07:45:28Z" finished-at="2019-02-01T07:45:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5973" started-at="2019-01-31T11:43:43Z" finished-at="2019-01-31T11:43:49Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5911" started-at="2019-02-01T07:45:29Z" finished-at="2019-02-01T07:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -321,11 +317,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3775" started-at="2019-01-31T11:43:49Z" finished-at="2019-01-31T11:43:53Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3682" started-at="2019-02-01T07:45:34Z" finished-at="2019-02-01T07:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1678" started-at="2019-01-31T11:43:53Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:43:54Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1849" started-at="2019-02-01T07:45:38Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:45:40Z">
           <params>
             <param index="0">
               <value>
@@ -342,11 +338,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="948" started-at="2019-01-31T11:43:55Z" finished-at="2019-01-31T11:43:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="988" started-at="2019-02-01T07:45:41Z" finished-at="2019-02-01T07:45:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5816" started-at="2019-01-31T11:43:56Z" finished-at="2019-01-31T11:44:02Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5950" started-at="2019-02-01T07:45:42Z" finished-at="2019-02-01T07:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -357,11 +353,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3348" started-at="2019-01-31T11:44:02Z" finished-at="2019-01-31T11:44:05Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3481" started-at="2019-02-01T07:45:48Z" finished-at="2019-02-01T07:45:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="2161" started-at="2019-01-31T11:44:05Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:44:07Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1893" started-at="2019-02-01T07:45:51Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:45:53Z">
           <params>
             <param index="0">
               <value>
@@ -378,11 +374,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="984" started-at="2019-01-31T11:44:08Z" finished-at="2019-01-31T11:44:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="1042" started-at="2019-02-01T07:45:54Z" finished-at="2019-02-01T07:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="6193" started-at="2019-01-31T11:44:09Z" finished-at="2019-01-31T11:44:15Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="6334" started-at="2019-02-01T07:45:55Z" finished-at="2019-02-01T07:46:01Z">
           <params>
             <param index="0">
               <value>
@@ -393,11 +389,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3668" started-at="2019-01-31T11:44:15Z" finished-at="2019-01-31T11:44:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3869" started-at="2019-02-01T07:46:01Z" finished-at="2019-02-01T07:46:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarBodyTypes" duration-ms="1916" started-at="2019-01-31T11:44:19Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-01-31T11:44:21Z">
+        <test-method status="FAIL" signature="testFilterByCarBodyTypes(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarBodyTypes" duration-ms="1981" started-at="2019-02-01T07:46:05Z" description="Select car by body type" data-provider="Filter by car body types" finished-at="2019-02-01T07:46:07Z">
           <params>
             <param index="0">
               <value>
@@ -414,11 +410,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarBodyTypes -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="1246" started-at="2019-01-31T11:44:21Z" finished-at="2019-01-31T11:44:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="1055" started-at="2019-02-01T07:46:07Z" finished-at="2019-02-01T07:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="6043" started-at="2019-01-31T11:44:23Z" finished-at="2019-01-31T11:44:29Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5934" started-at="2019-02-01T07:46:09Z" finished-at="2019-02-01T07:46:14Z">
           <params>
             <param index="0">
               <value>
@@ -429,11 +425,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3832" started-at="2019-01-31T11:44:29Z" finished-at="2019-01-31T11:44:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3641" started-at="2019-02-01T07:46:14Z" finished-at="2019-02-01T07:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarEngineType" duration-ms="1442" started-at="2019-01-31T11:44:33Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-01-31T11:44:34Z">
+        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarEngineType" duration-ms="1622" started-at="2019-02-01T07:46:18Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-02-01T07:46:20Z">
           <params>
             <param index="0">
               <value>
@@ -450,11 +446,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarEngineType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="958" started-at="2019-01-31T11:44:35Z" finished-at="2019-01-31T11:44:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="999" started-at="2019-02-01T07:46:20Z" finished-at="2019-02-01T07:46:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5782" started-at="2019-01-31T11:44:36Z" finished-at="2019-01-31T11:44:41Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5846" started-at="2019-02-01T07:46:21Z" finished-at="2019-02-01T07:46:27Z">
           <params>
             <param index="0">
               <value>
@@ -465,11 +461,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="2496" started-at="2019-01-31T11:44:41Z" finished-at="2019-01-31T11:44:44Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3316" started-at="2019-02-01T07:46:27Z" finished-at="2019-02-01T07:46:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarEngineType" duration-ms="2006" started-at="2019-01-31T11:44:44Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-01-31T11:44:46Z">
+        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarEngineType" duration-ms="1698" started-at="2019-02-01T07:46:31Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-02-01T07:46:32Z">
           <params>
             <param index="0">
               <value>
@@ -486,11 +482,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarEngineType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="945" started-at="2019-01-31T11:44:47Z" finished-at="2019-01-31T11:44:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="969" started-at="2019-02-01T07:46:33Z" finished-at="2019-02-01T07:46:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5835" started-at="2019-01-31T11:44:47Z" finished-at="2019-01-31T11:44:53Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5907" started-at="2019-02-01T07:46:34Z" finished-at="2019-02-01T07:46:40Z">
           <params>
             <param index="0">
               <value>
@@ -501,15 +497,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3157" started-at="2019-01-31T11:44:53Z" finished-at="2019-01-31T11:44:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3486" started-at="2019-02-01T07:46:40Z" finished-at="2019-02-01T07:46:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarEngineType" duration-ms="1926" started-at="2019-01-31T11:44:56Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-01-31T11:44:58Z">
+        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarEngineType" duration-ms="1756" started-at="2019-02-01T07:46:43Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-02-01T07:46:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Р“Р°Р· (Р±РµРЅР·РёРЅ)]]>
+                <![CDATA[Р“Р°Р· (Р±РµРЅР·РёРЅ))]]>
               </value>
             </param>
           </params>
@@ -522,11 +518,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarEngineType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="924" started-at="2019-01-31T11:44:59Z" finished-at="2019-01-31T11:45:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="1002" started-at="2019-02-01T07:46:46Z" finished-at="2019-02-01T07:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="6221" started-at="2019-01-31T11:45:00Z" finished-at="2019-01-31T11:45:06Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5900" started-at="2019-02-01T07:46:47Z" finished-at="2019-02-01T07:46:53Z">
           <params>
             <param index="0">
               <value>
@@ -537,11 +533,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="4848" started-at="2019-01-31T11:45:06Z" finished-at="2019-01-31T11:45:11Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3301" started-at="2019-02-01T07:46:53Z" finished-at="2019-02-01T07:46:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarEngineType" duration-ms="1381" started-at="2019-01-31T11:45:11Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-01-31T11:45:12Z">
+        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarEngineType" duration-ms="1498" started-at="2019-02-01T07:46:56Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-02-01T07:46:57Z">
           <params>
             <param index="0">
               <value>
@@ -558,11 +554,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarEngineType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="961" started-at="2019-01-31T11:45:13Z" finished-at="2019-01-31T11:45:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="970" started-at="2019-02-01T07:46:58Z" finished-at="2019-02-01T07:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="6127" started-at="2019-01-31T11:45:14Z" finished-at="2019-01-31T11:45:20Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5961" started-at="2019-02-01T07:46:59Z" finished-at="2019-02-01T07:47:05Z">
           <params>
             <param index="0">
               <value>
@@ -573,11 +569,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3166" started-at="2019-01-31T11:45:20Z" finished-at="2019-01-31T11:45:23Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="4545" started-at="2019-02-01T07:47:05Z" finished-at="2019-02-01T07:47:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarEngineType" duration-ms="1587" started-at="2019-01-31T11:45:23Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-01-31T11:45:25Z">
+        <test-method status="FAIL" signature="testFilterByCarEngineType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarEngineType" duration-ms="1328" started-at="2019-02-01T07:47:09Z" description="Select car by engine type" data-provider="Filter by engine&#039;s type" finished-at="2019-02-01T07:47:11Z">
           <params>
             <param index="0">
               <value>
@@ -594,11 +590,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarEngineType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="895" started-at="2019-01-31T11:45:25Z" finished-at="2019-01-31T11:45:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="975" started-at="2019-02-01T07:47:11Z" finished-at="2019-02-01T07:47:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5870" started-at="2019-01-31T11:45:26Z" finished-at="2019-01-31T11:45:32Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="6069" started-at="2019-02-01T07:47:12Z" finished-at="2019-02-01T07:47:18Z">
           <params>
             <param index="0">
               <value>
@@ -609,11 +605,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="3399" started-at="2019-01-31T11:45:32Z" finished-at="2019-01-31T11:45:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="4939" started-at="2019-02-01T07:47:18Z" finished-at="2019-02-01T07:47:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarTransmissionType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarTransmissionType" duration-ms="1421" started-at="2019-01-31T11:45:36Z" description="Select car by transmission type" data-provider="Filter by transmission type" finished-at="2019-01-31T11:45:37Z">
+        <test-method status="FAIL" signature="testFilterByCarTransmissionType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarTransmissionType" duration-ms="1202" started-at="2019-02-01T07:47:23Z" description="Select car by transmission type" data-provider="Filter by transmission type" finished-at="2019-02-01T07:47:25Z">
           <params>
             <param index="0">
               <value>
@@ -630,11 +626,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarTransmissionType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="937" started-at="2019-01-31T11:45:38Z" finished-at="2019-01-31T11:45:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="962" started-at="2019-02-01T07:47:25Z" finished-at="2019-02-01T07:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="prepareForTestMethod" is-config="true" duration-ms="5808" started-at="2019-01-31T11:45:39Z" finished-at="2019-01-31T11:45:44Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="prepareForTestMethod" is-config="true" duration-ms="5925" started-at="2019-02-01T07:47:26Z" finished-at="2019-02-01T07:47:32Z">
           <params>
             <param index="0">
               <value>
@@ -645,11 +641,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="beforeMethod" is-config="true" duration-ms="2456" started-at="2019-01-31T11:45:45Z" finished-at="2019-01-31T11:45:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="beforeMethod" is-config="true" duration-ms="3204" started-at="2019-02-01T07:47:32Z" finished-at="2019-02-01T07:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testFilterByCarTransmissionType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="testFilterByCarTransmissionType" duration-ms="1983" started-at="2019-01-31T11:45:47Z" description="Select car by transmission type" data-provider="Filter by transmission type" finished-at="2019-01-31T11:45:49Z">
+        <test-method status="FAIL" signature="testFilterByCarTransmissionType(java.lang.String)[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="testFilterByCarTransmissionType" duration-ms="1430" started-at="2019-02-01T07:47:35Z" description="Select car by transmission type" data-provider="Filter by transmission type" finished-at="2019-02-01T07:47:37Z">
           <params>
             <param index="0">
               <value>
@@ -666,73 +662,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByCarTransmissionType -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@402f80f5]" name="tearDown" is-config="true" duration-ms="916" started-at="2019-01-31T11:45:50Z" finished-at="2019-01-31T11:45:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarMarketTest@345e5a17]" name="tearDown" is-config="true" duration-ms="965" started-at="2019-02-01T07:47:37Z" finished-at="2019-02-01T07:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.onlinerautomation.test.CarMarketTest -->
-      <class name="com.onlinerautomation.test.CarAnnouncementTest">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="initTestSuite" is-config="true" duration-ms="2448" started-at="2019-01-31T11:41:10Z" finished-at="2019-01-31T11:41:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestSuite -->
-        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="initTestClass" is-config="true" duration-ms="1" started-at="2019-01-31T11:41:12Z" finished-at="2019-01-31T11:41:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestClass -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="prepareForTestMethod" is-config="true" duration-ms="7306" started-at="2019-01-31T11:41:12Z" finished-at="2019-01-31T11:41:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.onlinerautomation.test.CarAnnouncementTest.testComparePreviewAndOpenedAnnouncementData()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="beforeMethod" is-config="true" duration-ms="3877" started-at="2019-01-31T11:41:20Z" finished-at="2019-01-31T11:41:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testComparePreviewAndOpenedAnnouncementData()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="testComparePreviewAndOpenedAnnouncementData" duration-ms="27593" started-at="2019-01-31T11:41:24Z" description="Compare preview data with opened announcement data" finished-at="2019-01-31T11:41:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testComparePreviewAndOpenedAnnouncementData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="tearDown" is-config="true" duration-ms="1014" started-at="2019-01-31T11:41:51Z" finished-at="2019-01-31T11:41:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="prepareForTestMethod" is-config="true" duration-ms="6195" started-at="2019-01-31T11:41:52Z" finished-at="2019-01-31T11:41:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.onlinerautomation.test.CarAnnouncementTest.testVerifyPageElements()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="beforeMethod" is-config="true" duration-ms="5436" started-at="2019-01-31T11:41:59Z" finished-at="2019-01-31T11:42:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testVerifyPageElements()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="testVerifyPageElements" duration-ms="7132" started-at="2019-01-31T11:42:04Z" description="Verify car announcement elements" finished-at="2019-01-31T11:42:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyPageElements -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@5ed190be]" name="tearDown" is-config="true" duration-ms="1118" started-at="2019-01-31T11:42:11Z" finished-at="2019-01-31T11:42:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.onlinerautomation.test.CarAnnouncementTest -->
       <class name="com.onlinerautomation.test.OnlinerHomePageTest">
-        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5bbc9f97]" name="initTestClass" is-config="true" duration-ms="0" started-at="2019-01-31T11:45:50Z" finished-at="2019-01-31T11:45:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestClass -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5bbc9f97]" name="prepareForTestMethod" is-config="true" duration-ms="5656" started-at="2019-01-31T11:45:50Z" finished-at="2019-01-31T11:45:56Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5ea502e0]" name="prepareForTestMethod" is-config="true" duration-ms="5972" started-at="2019-02-01T07:47:38Z" finished-at="2019-02-01T07:47:44Z">
           <params>
             <param index="0">
               <value>
@@ -743,21 +679,69 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="testOnlinerHomePage()[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5bbc9f97]" name="testOnlinerHomePage" duration-ms="1166" started-at="2019-01-31T11:45:56Z" finished-at="2019-01-31T11:45:57Z">
+        <test-method status="PASS" signature="testOnlinerHomePage()[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5ea502e0]" name="testOnlinerHomePage" duration-ms="1131" started-at="2019-02-01T07:47:44Z" finished-at="2019-02-01T07:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOnlinerHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="829" started-at="2019-01-31T11:45:57Z" finished-at="2019-01-31T11:45:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.OnlinerHomePageTest@5ea502e0]" name="tearDown" is-config="true" duration-ms="954" started-at="2019-02-01T07:47:45Z" finished-at="2019-02-01T07:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.onlinerautomation.test.OnlinerHomePageTest -->
-      <class name="com.onlinerautomation.test.SearchTest">
-        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="initTestClass" is-config="true" duration-ms="1" started-at="2019-01-31T11:45:58Z" finished-at="2019-01-31T11:45:58Z">
+      <class name="com.onlinerautomation.test.CarAnnouncementTest">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="initTestSuite" is-config="true" duration-ms="2383" started-at="2019-02-01T07:43:18Z" finished-at="2019-02-01T07:43:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initTestClass -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="prepareForTestMethod" is-config="true" duration-ms="5775" started-at="2019-01-31T11:45:58Z" finished-at="2019-01-31T11:46:04Z">
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="prepareForTestMethod" is-config="true" duration-ms="7308" started-at="2019-02-01T07:43:20Z" finished-at="2019-02-01T07:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.onlinerautomation.test.CarAnnouncementTest.testComparePreviewAndOpenedAnnouncementData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareForTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="beforeMethod" is-config="true" duration-ms="3733" started-at="2019-02-01T07:43:28Z" finished-at="2019-02-01T07:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testComparePreviewAndOpenedAnnouncementData()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="testComparePreviewAndOpenedAnnouncementData" duration-ms="5985" started-at="2019-02-01T07:43:31Z" description="Compare preview data with opened announcement data" finished-at="2019-02-01T07:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparePreviewAndOpenedAnnouncementData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="tearDown" is-config="true" duration-ms="1052" started-at="2019-02-01T07:43:37Z" finished-at="2019-02-01T07:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="prepareForTestMethod" is-config="true" duration-ms="5809" started-at="2019-02-01T07:43:38Z" finished-at="2019-02-01T07:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.onlinerautomation.test.CarAnnouncementTest.testVerifyPageElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareForTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="beforeMethod" is-config="true" duration-ms="3605" started-at="2019-02-01T07:43:44Z" finished-at="2019-02-01T07:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testVerifyPageElements()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="testVerifyPageElements" duration-ms="7184" started-at="2019-02-01T07:43:48Z" description="Verify car announcement elements" finished-at="2019-02-01T07:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPageElements -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.CarAnnouncementTest@600b0b7]" name="tearDown" is-config="true" duration-ms="1010" started-at="2019-02-01T07:43:55Z" finished-at="2019-02-01T07:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.onlinerautomation.test.CarAnnouncementTest -->
+      <class name="com.onlinerautomation.test.SearchTest">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="prepareForTestMethod" is-config="true" duration-ms="5928" started-at="2019-02-01T07:47:46Z" finished-at="2019-02-01T07:47:52Z">
           <params>
             <param index="0">
               <value>
@@ -768,11 +752,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2019-01-31T11:46:04Z" finished-at="2019-01-31T11:46:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2019-02-01T07:47:52Z" finished-at="2019-02-01T07:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testOnlinerPositiveSearch()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="testOnlinerPositiveSearch" duration-ms="7149" started-at="2019-01-31T11:46:04Z" description="Search product in catalog" finished-at="2019-01-31T11:46:11Z">
+        <test-method status="FAIL" signature="testOnlinerPositiveSearch()[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="testOnlinerPositiveSearch" duration-ms="12363" started-at="2019-02-01T07:47:52Z" description="Search product in catalog" finished-at="2019-02-01T07:48:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Product information is not correct: Lists differ at element [0]: Apple iPhone 7 32GB Black != Смартфон Apple iPhone 7 32GB Black expected [Apple iPhone 7 32GB Black] but found [Смартфон Apple iPhone 7 32GB Black]]]>
@@ -783,11 +767,11 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:831)
-at com.onlinerautomation.page.ProductPage.verifyProductInfo_aroundBody0(ProductPage.java:34)
+at com.onlinerautomation.page.ProductPage.verifyProductInfo_aroundBody0(ProductPage.java:37)
 at com.onlinerautomation.page.ProductPage$AjcClosure1.run(ProductPage.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:50)
-at com.onlinerautomation.page.ProductPage.verifyProductInfo(ProductPage.java:32)
+at com.onlinerautomation.page.ProductPage.verifyProductInfo(ProductPage.java:35)
 at com.onlinerautomation.test.SearchTest.testOnlinerPositiveSearch(SearchTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -824,11 +808,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOnlinerPositiveSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="tearDown" is-config="true" duration-ms="934" started-at="2019-01-31T11:46:12Z" finished-at="2019-01-31T11:46:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="tearDown" is-config="true" duration-ms="1037" started-at="2019-02-01T07:48:05Z" finished-at="2019-02-01T07:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="prepareForTestMethod" is-config="true" duration-ms="5893" started-at="2019-01-31T11:46:13Z" finished-at="2019-01-31T11:46:18Z">
+        <test-method status="PASS" signature="prepareForTestMethod(java.lang.reflect.Method)[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="prepareForTestMethod" is-config="true" duration-ms="6134" started-at="2019-02-01T07:48:06Z" finished-at="2019-02-01T07:48:12Z">
           <params>
             <param index="0">
               <value>
@@ -839,15 +823,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareForTestMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-31T11:46:18Z" finished-at="2019-01-31T11:46:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-01T07:48:12Z" finished-at="2019-02-01T07:48:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testProductPageElements()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="testProductPageElements" duration-ms="6151" started-at="2019-01-31T11:46:18Z" description="Verify product page elements" finished-at="2019-01-31T11:46:25Z">
+        <test-method status="PASS" signature="testProductPageElements()[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="testProductPageElements" duration-ms="6704" started-at="2019-02-01T07:48:12Z" description="Verify product page elements" finished-at="2019-02-01T07:48:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProductPageElements -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.SearchTest@133e019b]" name="tearDown" is-config="true" duration-ms="927" started-at="2019-01-31T11:46:25Z" finished-at="2019-01-31T11:46:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.onlinerautomation.test.SearchTest@443dbe42]" name="tearDown" is-config="true" duration-ms="979" started-at="2019-02-01T07:48:19Z" finished-at="2019-02-01T07:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -2,6 +2,7 @@ package com.onlinerautomation.page;
 
 import com.onlinerautomation.utils.ElementsUtil;
 import io.qameta.allure.Step;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Slf4j
 public class HomePage extends Page {
 
     private List<String> itemPreviewInfo = new ArrayList<>();
@@ -36,7 +38,7 @@ public class HomePage extends Page {
     }
 
     public HomePage verifyHomePageLogo() {
-        logger.info("Verify onliner logo");
+        log.info("Verify onliner logo");
         ElementsUtil.waitForVisible(onlinerLogo);
         Assert.assertTrue(onlinerLogo.isDisplayed());
         return this;
@@ -44,7 +46,7 @@ public class HomePage extends Page {
 
     @Step("Click on carsAnnouncement")
     public void clickOnCarAnnouncement() {
-        logger.info("Click on car market button");
+        log.info("Click on car market button");
         carsAnnouncement.click();
     }
 
@@ -57,7 +59,7 @@ public class HomePage extends Page {
 
     @Step("Enter search data")
     public HomePage enterSearchData() {
-        logger.info("Set data into search field");
+        log.info("Set data into search field");
         ElementsUtil.waitForVisible(searchField);
         searchField.click();
         searchField.sendKeys("iphone");
@@ -73,7 +75,7 @@ public class HomePage extends Page {
 
     @Step("Select first search result")
     public List<String> selectFirstSearchResult() {
-        logger.info("Open first result from search");
+        log.info("Open first result from search");
         driver.switchTo().frame(searchResultFrame);
 
         ElementsUtil.waitForVisible(driver.findElement(By.cssSelector(".search__results")));
@@ -83,5 +85,4 @@ public class HomePage extends Page {
         element.click();
         return searchItemInfo;
     }
-
 }

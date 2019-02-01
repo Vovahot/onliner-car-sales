@@ -3,21 +3,10 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.onlinerautomation.test.SearchTest">
-        <methods>
-          <include name="prepareForTestMethod"/>
-          <include name="initTestClass"/>
-          <include name="testOnlinerPositiveSearch"/>
-          <include name="initTestSuite"/>
-          <include name="beforeMethod"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.onlinerautomation.test.SearchTest -->
       <class name="com.onlinerautomation.test.CarMarketTest">
         <methods>
           <include name="testFilterByCarTransmissionType" invocation-numbers="0 1"/>
           <include name="prepareForTestMethod"/>
-          <include name="initTestClass"/>
           <include name="testFilterByCarEngineType" invocation-numbers="0 1 2 3 4"/>
           <include name="beforeMethod"/>
           <include name="testFilterByCarBodyTypes" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
@@ -25,6 +14,15 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.onlinerautomation.test.CarMarketTest -->
+      <class name="com.onlinerautomation.test.SearchTest">
+        <methods>
+          <include name="prepareForTestMethod"/>
+          <include name="testOnlinerPositiveSearch"/>
+          <include name="initTestSuite"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.onlinerautomation.test.SearchTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Smoke] -->
